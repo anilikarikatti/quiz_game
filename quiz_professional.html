@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link rel="stylesheet" href="quiz.css">
+    <style>
+        p{
+            margin-left: 450px;
+            color: gray;
+            
+            text-transform: capitalize;
+            font-size: 30px;
+        }
+        #a,#b,#c,#d{
+            margin-left: 30px;
+            margin-top: 30px;;
+            border-radius: 10px;
+            height: 40px;
+            font-size: 20px;
+            text-align: center;
+            
+        }
+        button{
+            margin-top: 50px;
+            margin-left: 240px;;
+            text-transform: capitalize;
+            border-radius: 10px;
+            height: 40px;
+            font-size: 20px;
+            text-align: center;
+            
+        }
+        label{
+            margin-left: 400px;;;
+        }
+        .txt{
+            text-transform: capitalize;
+            /* font-size: 20px; */
+            /* text-align: center; */
+        }
+        .ans{
+           font-size: 10px;
+           widows: 40px;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div id="question">
+         
+    </div>
+        <div id="answers">
+            <p class="txt" id="que"></p>
+            <div id="fir">
+            <label for="a">a</label>
+            <input type="radio" value="a" name="aa" class="ans">
+            <input type="text" id="a" class="txt" disabled></div>    
+            <div id="fir">
+            <label for="b">b</label>
+            <input type="radio" value="b" name="aa" class="ans">
+            <input type="text" id="b" class="txt" disabled></div>    
+            <div id="fir">
+            <label for="c">c</label>
+            <input type="radio" value="c" name="aa" class="ans">
+            <input type="text" id="c" class="txt" disabled></div>
+            <div id="fir">
+            <label for="d">d</label>
+            <input type="radio" value="d" name="aa" class="ans">
+            <input type="text" id="d" class="txt" disabled></div>    
+        </div>
+
+        <button name="prev" type="button" id="previous">previous</button>
+        
+        <button name="submit" type="button" id="submit">submit</button>
+
+        
+        <button name="next" type="button" id="next">next</button>
+      
+        <script src="quiz_professional.js"></script>
+</body>
+</html>
