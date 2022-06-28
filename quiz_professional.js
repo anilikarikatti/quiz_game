@@ -1,32 +1,33 @@
  function quizgame(){
     let questions= [
         {
-            que:"delhi is in which country ",
-            a:"india",
-            b:"dubai",
-            c:'america',
-            d:'canada',
+            que:"MS-Word is an example of _____   ",
+            a:"Application software",
+            b:"A processing device",
+            c:'An input device',
+            d:'An operating system',
             ans:'a'
         },
         {
-            que: "washington is in which country",
-            a:"india",
-            b:"dubai",
-            c:'america',
-            d:'canada',
+            que: "Ctrl, Shift and Alt are called .......... keys.",
+            a:"alphanumeric",
+            b:"function",
+            c:'modifier',
+            d:'adjustment',
             ans:'c'
         },
         {
-            que: "dharwad is in which country",
-            a:"india",
-            b:"dubai",
-            c:'america',
-            d:'canada',
-            ans:'a'
+            que: "A computer cannot 'boot' if it does not have the _____",
+            a:"Compiler",
+            b:"Loader",
+            c:'Operating system',
+            d:'Assembler',
+            ans:'c'
         }
     ];
 
-
+    console.log("anil");
+    
     let input = document.querySelectorAll('.txt');
     let question = document.querySelector('#que');
     let radio_buttons = document.querySelectorAll('.ans');
